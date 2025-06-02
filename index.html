@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Epic Weather Institute</title>
+  <title>Epic Weather - আজকের পূর্বাভাস</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Epic Weather Institute</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Weather</a>
-      <a href="#">News</a>
-      <a href="#">Contact</a>
-    </nav>
+    <h1>☁️ Epic Weather</h1>
+    <p>Check Today's Forecast</p>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>Welcome to Epic Weather!</h2>
-      <p>Stay informed with the latest weather updates and alerts in your area.</p>
-      <button>Check Today's Forecast</button>
-    </section>
-
-    <section class="features">
-      <div class="card">
-        <h3>Live Weather</h3>
-        <p>Get real-time weather data from around the world.</p>
-      </div>
-      <div class="card">
-        <h3>Weather News</h3>
-        <p>Read the latest weather-related headlines and news.</p>
-      </div>
-      <div class="card">
-        <h3>Forecast</h3>
-        <p>7-day forecast with temperature, wind, and rainfall predictions.</p>
-      </div>
+    <section id="forecast">
+      <h2>🌙 আজ রাতের আবহাওয়া পূর্বাভাস</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>জেলা</th>
+            <th>তাপমাত্রা (°C)</th>
+            <th>আবহাওয়া</th>
+            <th>বৃষ্টিপাতের সম্ভাবনা</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ময়মনসিংহ</td><td>26</td><td>☁️ মেঘলা</td><td>62%</td></tr>
+          <tr><td>সিলেট</td><td>24</td><td>⛈️ বজ্রসহ বৃষ্টি</td><td>100%</td></tr>
+          <tr><td>সুনামগঞ্জ</td><td>25</td><td>🌧️ বজ্রসহ বৃষ্টি</td><td>100%</td></tr>
+          <tr><td>ঢাকা</td><td>27</td><td>☁️ মেঘলা</td><td>67%</td></tr>
+          <tr><td>বরিশাল</td><td>26</td><td>☁️ মেঘলা</td><td>11%</td></tr>
+          <tr><td>রংপুর</td><td>25</td><td>🌤️ আংশিক মেঘলা</td><td>25%</td></tr>
+          <tr><td>রাজশাহী</td><td>25</td><td>☁️ মেঘলা</td><td>6%</td></tr>
+          <tr><td>মৌলভীবাজার</td><td>24</td><td>⛈️ বজ্রসহ বৃষ্টি</td><td>99%</td></tr>
+          <tr><td>চট্টগ্রাম</td><td>27</td><td>☁️ মেঘলা</td><td>66%</td></tr>
+        </tbody>
+      </table>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Epic Weather Institute. All rights reserved.</p>
+    <p>&copy; 2025 Epic Weather | Designed by Saif</p>
   </footer>
 </body>
 </html>

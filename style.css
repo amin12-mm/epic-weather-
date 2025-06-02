@@ -1,70 +1,68 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #e0f7fa;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 0;
+  color: #333;
 }
 
 header {
-  background-color: #0277bd;
+  background-color: #4a90e2;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-.hero {
-  text-align: center;
-  padding: 50px;
-  background-color: #b3e5fc;
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 
-.hero h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+main {
+  padding: 2rem;
 }
 
-.hero p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.hero button {
-  background-color: #0288d1;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.features {
-  display: flex;
-  justify-content: space-around;
-  padding: 40px;
-  background-color: #ffffff;
-}
-
-.card {
-  background-color: #e1f5fe;
-  border: 1px solid #81d4fa;
-  padding: 20px;
+#forecast {
+  background-color: white;
+  padding: 1.5rem;
   border-radius: 10px;
-  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin: auto;
+}
+
+#forecast h2 {
   text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #e0ecf8;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 footer {
-  background-color: #01579b;
-  color: white;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  font-size: 0.9rem;
 }

@@ -1,16 +1,15 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f4f8;
   margin: 0;
-  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f6fc;
   color: #333;
 }
 
 header {
-  background-color: #4a90e2;
+  background: #2980b9;
   color: white;
-  text-align: center;
   padding: 2rem 1rem;
+  text-align: center;
 }
 
 header h1 {
@@ -25,44 +24,52 @@ header p {
 
 main {
   padding: 2rem;
-}
-
-#forecast {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
 }
 
-#forecast h2 {
+.forecast, .map {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.forecast h2, .map h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 1rem;
 }
 
 th, td {
-  padding: 0.75rem 1rem;
-  border: 1px solid #ccc;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
   text-align: center;
 }
 
 th {
-  background-color: #e0ecf8;
+  background: #d6eaff;
 }
 
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background: #f9f9f9;
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 footer {
+  background: #ecf0f1;
   text-align: center;
   padding: 1rem;
-  background-color: #f0f0f0;
   font-size: 0.9rem;
 }
